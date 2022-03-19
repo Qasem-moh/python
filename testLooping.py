@@ -1,13 +1,24 @@
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
 
 # charUser = input("Enter a character: ")
 # newList = [ch for ch in fruits if ch[0] == charUser]
 # print(newList)
 # *****************************************************************************
-class MyClass:
-    x = 5
+# class MyClass:
+#     x = 5
+#
+#
+# print(MyClass)
+# print(MyClass.x)
+# //////////////////////////////////////////////////////////////////////////////
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
 
-print(MyClass)
-print(MyClass.x)
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
