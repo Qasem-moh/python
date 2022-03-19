@@ -1,0 +1,16 @@
+# 1. write a program that defines 2 variables: x and y.
+# 2. assign any numbers to the variables.
+# 3. write the result of the following operations to the screen:
+#	a. x + y
+#	b. x - y
+#	c. x * y
+#	d. x / y
+
+***************************************************
+x = 6
+y = 2
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(int(x/y))

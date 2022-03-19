@@ -1,0 +1,20 @@
+# 1. write a program that defines one variable named "x".
+# 2. assign the variable any number.
+# 3. the program should use an "if" statement to decide if the number is:
+#	a. less than 0.
+#	b. equal to 0.
+#	c. greater than 0.
+
+# 4. write the following result:
+#	a. if the variable is less then 0 write "-".
+#	b. if the variable is equal to 0 then write "0".
+#	c. if the variable is greater than 0 write "+".
+# *****************************************************************************
+
+x = 0
+if x == 0:
+    print("0")
+elif x < 0:
+    print("-")
+else:
+    print("+")

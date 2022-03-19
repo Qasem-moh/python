@@ -1,0 +1,16 @@
+# write a Python program that defines a list of numbers.
+# store any numbers (positive and negative) in the list.
+# the program should convert positive numbers into negative and negative numbers into positive. zeros remain unchanged.
+
+# example:
+
+# [1, -2, 0, 5, -10] becomes [-1, 2, 0, -5, 10].
+
+#*****************************************************************
+
+def ConNumPoNe(number):
+    return [-i for i in number]
+
+
+numbers = [1, -2, 0, 5, -10]
+print(ConNumPoNe(numbers))

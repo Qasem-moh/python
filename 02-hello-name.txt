@@ -1,0 +1,13 @@
+# write a Python program that asks you to enter your name.
+# when you enter your name is should write the following result to the screen:
+# Hello [your name]
+
+# example:
+# when start the program you see "Please enter your name:" on the screen.
+# then your enter "Ahmad".
+# then you see "Hello Ahmad".
+***************************************************
+
+name = input("Enter Your Name: ")
+
+print("Hello " + name)
