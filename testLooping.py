@@ -22,3 +22,15 @@ p1 = Person("John", 36)
 
 print(p1.name)
 print(p1.age)
+
+
+class Student:
+    pass
+
+
+class Memebers:
+    def __init__(self):
+        print("Add member ")
+
+
+Memebers()
