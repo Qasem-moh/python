@@ -41,7 +41,15 @@ class Person:
         self.name = name
         self.age = age
 
+    def myfunc(self):
+        return "Hello my name is " + self.name
+
+    def ReturnName(self):
+        return f"Hello Mr {self.name}"
+
 
 p1 = Person("John", 36)
 p2 = Person("Sara", 25)
 print(p1.name, p1.age)
+print(p1.myfunc())
+print(p1.ReturnName())
